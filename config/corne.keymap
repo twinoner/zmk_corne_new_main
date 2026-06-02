@@ -25,6 +25,14 @@
 		};
 	};
 
+	behaviors {
+		gui_alt: gui_alt {
+			compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			bindings = <&kp LGUI &kp LALT>;
+		};
+	};
+
 	keymap {
 		compatible = "zmk,keymap";
 
